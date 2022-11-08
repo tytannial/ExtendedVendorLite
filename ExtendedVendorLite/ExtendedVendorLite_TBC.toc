@@ -1,0 +1,17 @@
+## Interface: 20504
+## Title: [UI]Extended Vendor UI Lite
+## Title-zhCN: [界面]扩展商人界面
+## Title-zhTW: [界面]擴展商人界面
+## Version: 1.0.2
+## Notes: Simple addon extending vendor page size.
+## Notes-zhCN: 一个简单的插件，用于加宽商人交易界面
+## Notes-zhTW: 一個簡單的插件，用於加寬商人交易頁面
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+#@end-no-lib-strip@
+
+ExtendedVendorLite.lua
